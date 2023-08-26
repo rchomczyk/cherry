@@ -30,9 +30,9 @@ public class IconController {
 
   private static final String CHERRY_ICON_KEY_ID_PREFIX = "cherry_icon_%s";
   private static final String PLOT_ICON_ID = "plot";
+  private static final String PLOT_ICON_RESOURCE_PATH = "icons/plot.png";
   public static final Key PLOT_ICON_KEY = Key.of(CHERRY_ICON_KEY_ID_PREFIX.formatted(PLOT_ICON_ID));
   public static final int PLOT_ICON_SIZE = 16;
-  private static final String PLOT_ICON_RESOURCE_PATH = "icons/plot.png";
   private final Plugin plugin;
 
   public IconController(Plugin plugin) {
